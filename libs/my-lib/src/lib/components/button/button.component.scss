@@ -1,0 +1,14 @@
+:host {
+  font-size: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 8px 15px;
+  box-shadow: 0 0 10px 5px rgb(0 0 0 / 0.1);
+  border-radius: 5px;
+  background-color: rgb(96, 153, 222);
+  color: rgb(238, 229, 229);
+  cursor: pointer;
+}
+
+:host:hover {
+  background-color: rgb(170, 203, 243);
+}
