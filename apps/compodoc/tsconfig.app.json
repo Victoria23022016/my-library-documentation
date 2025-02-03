@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../../dist/out-tsc",
+    "types": []
+  },
+  "files": ["src/main.ts"],
+  "include": ["../../libs/my-lib/src/lib/components/**/*.ts"],
+  "exclude": [
+    "../../libs/my-lib/src/lib/components/button/*.ts",
+    "src/**/*.test.ts",
+    "src/**/*.spec.ts"
+  ]
+}
