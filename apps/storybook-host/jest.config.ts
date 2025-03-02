@@ -1,8 +1,8 @@
 export default {
-  displayName: 'ngDoc',
+  displayName: 'storybook-host',
   preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../coverage/apps/ngDoc',
+  coverageDirectory: '../../coverage/apps/storybook-host',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',
