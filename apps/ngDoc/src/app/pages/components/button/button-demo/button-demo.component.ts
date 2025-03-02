@@ -6,6 +6,5 @@ import { MyButtonComponent } from '@my-lib';
   selector: 'app-button-demo',
   imports: [CommonModule, MyButtonComponent],
   templateUrl: './button-demo.component.html',
-  styleUrl: './button-demo.component.scss',
 })
 export class ButtonDemoComponent {}

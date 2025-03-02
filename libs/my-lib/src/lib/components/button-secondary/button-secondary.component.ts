@@ -25,7 +25,7 @@ import { Sizes } from '../../enums';
 <my-button-secondary size="m">My button</my-button-secondary>
  * ```
 * Ссылка на демо компонента:
- *https://stackblitzstartersfzuoilfq-v2um-qlzgt42v--4200--d20a0a75.local-corp.webcontainer.io/
+ *https://stackblitz.com/edit/stackblitz-starters-fzuoilfq?file=package.json
  */
 
 @Component({

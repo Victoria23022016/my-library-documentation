@@ -6,7 +6,6 @@ import { MyButtonComponent } from '@my-lib';
   imports: [MyButtonComponent],
   selector: 'example',
   templateUrl: './index.html',
-  styleUrl: './index.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export default class ExampleComponent {}

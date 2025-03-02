@@ -1,0 +1,46 @@
+import {
+  Meta,
+  Source,
+  Title,
+  Primary,
+  Controls,
+  Stories,
+} from '@storybook/blocks';
+
+<Meta isTemplate />
+
+<Title />
+
+## Description
+
+Кнопка — это интерактивный элемент управления, который позволяет пользователям выполнять определенные действия при нажатии. В нашей библиотеке кнопка представлена компонентом button, который поддерживает различные стили оформления и может быть настроен под конкретные задачи вашего проекта.
+
+Ниже представлены примеры использования компонента:
+
+<Stories />
+
+## Setup
+
+Добавьте импорты в компонент:
+
+<Source
+  code={`
+    import {MyButtonComponent} from '@my-lib';
+    `}
+  dark="true"
+/>
+
+Добавьте в шаблон:
+
+<Source
+  code={`
+   <my-button [size]="size"> My Button</my-button>
+    `}
+  dark="true"
+/>
+
+### API
+
+Описание свойств компонента:
+
+<Controls />
